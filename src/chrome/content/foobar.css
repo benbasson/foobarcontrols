@@ -1,0 +1,74 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* Generic */
+
+#foobarcontrol {
+  padding: 0;
+  margin: auto auto !important;
+  border: 0;
+}
+
+.foobarcontrol {
+  list-style-image: url("chrome://foobar/content/foobar.png");
+  -moz-box-orient: vertical !important;
+}
+
+/* Stop */
+
+#foobar_stop, #foobar_stop_item {
+  -moz-image-region: rect(0px 18px 19px 0px);
+}
+#foobar_stop:hover,
+#foobar_stop[checked="true"] {
+  -moz-image-region: rect(0px 18px 19px 0px);
+}
+
+/* Play */
+
+#foobar_play {
+  -moz-image-region: rect(0px 40px 19px 22px);
+}
+#foobar_play:hover,
+#foobar_play[checked="true"] {
+  -moz-image-region: rect(0px 40px 19px 22px);
+}
+
+/* Pause */
+
+#foobar_paus{
+  -moz-image-region: rect(0px 63px 19px 43px);
+}
+#foobar_paus:hover,
+#foobar_paus[checked="true"] {
+  -moz-image-region: rect(0px 63px 19px 43px);
+}
+
+/* Previous */
+
+#foobar_prev {
+  -moz-image-region: rect(0px 86px 19px 70px);
+}
+#foobar_prev:hover,
+#foobar_prev[checked="true"] {
+  -moz-image-region: rect(0px 86px 19px 70px);
+}
+
+/* Next */
+
+#foobar_next {
+  -moz-image-region: rect(0px 109px 19px 91px);
+}
+#foobar_next:hover,
+#foobar_next[checked="true"] {
+  -moz-image-region: rect(0px 109px 19px 91px);
+}
+
+/* Random */
+
+#foobar_rand {
+  -moz-image-region: rect(0px 131px 19px 113px);
+}
+#foobar_rand:hover,
+#foobar_rand[checked="true"] {
+  -moz-image-region: rect(0px 131px 19px 113px);
+}

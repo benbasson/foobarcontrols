@@ -1,0 +1,13 @@
+<!ENTITY foobar.stop "Foobar2000: Stop">
+<!ENTITY foobar.paus "Foobar2000: Pause">
+<!ENTITY foobar.play "Foobar2000: Play">
+<!ENTITY foobar.prev "Foobar2000: Previous">
+<!ENTITY foobar.next "Foobar2000: Next">
+<!ENTITY foobar.rand "Foobar2000: Random">
+
+<!ENTITY foobar.toolbar.stop "Stop">
+<!ENTITY foobar.toolbar.paus "Pause">
+<!ENTITY foobar.toolbar.play "Play">
+<!ENTITY foobar.toolbar.prev "Previous">
+<!ENTITY foobar.toolbar.next "Next">
+<!ENTITY foobar.toolbar.rand "Random">

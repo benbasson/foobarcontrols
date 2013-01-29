@@ -1,0 +1,69 @@
+@import url("chrome://foobar/content/foobar.css");
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+.foobarcontrol {
+  -moz-border-top-colors: ThreeDHighlight;
+  -moz-border-right-colors: ThreeDShadow;
+  -moz-border-bottom-colors: ThreeDShadow;
+  -moz-border-left-colors: ThreeDHighlight;
+  -moz-box-orient: horizontal !important;
+  max-width: 22px;
+}
+
+#foobar_stop, #foobar_stop_item {
+  -moz-image-region: rect(3px 16px 16px 3px);
+}
+#foobar_stop:hover,
+#foobar_stop[checked="true"] {
+  -moz-image-region: rect(3px 16px 16px 3px);
+}
+
+/* Play */
+
+#foobar_play {
+  -moz-image-region: rect(3px 38px 16px 26px);
+}
+#foobar_play:hover,
+#foobar_play[checked="true"] {
+  -moz-image-region: rect(3px 38px 16px 26px);
+}
+
+/* Pause */
+
+#foobar_paus {
+  -moz-image-region: rect(3px 60px 16px 48px);
+}
+#foobar_paus:hover,
+#foobar_paus[checked="true"] {
+  -moz-image-region: rect(3px 60px 16px 48px);
+}
+
+/* Previous */
+
+#foobar_prev {
+  -moz-image-region: rect(3px 84px 16px 70px);
+}
+#foobar_prev:hover,
+#foobar_prev[checked="true"] {
+  -moz-image-region: rect(3px 84px 16px 70px);
+}
+
+/* Next */
+
+#foobar_next {
+  -moz-image-region: rect(3px 107px 16px 93px);
+}
+#foobar_next:hover,
+#foobar_next[checked="true"] {
+  -moz-image-region: rect(3px 107px 16px 93px);
+}
+
+/* Random */
+
+#foobar_rand {
+  -moz-image-region: rect(1px 131px 18px 114px);
+}
+#foobar_rand:hover,
+#foobar_rand[checked="true"] {
+  -moz-image-region: rect(1px 131px 18px 114px);
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://foobar/content/palette.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://foobar/locale/foobar.dtd">
+
+<overlay>
+</overlay>
