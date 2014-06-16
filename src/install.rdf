@@ -10,7 +10,7 @@
     <em:name>Foobar Controls</em:name>
     <em:description>Allows you to control Foobar2000 from your browser.</em:description>
     <em:creator>Ben Basson</em:creator>
-    <em:homepageURL>http://www.cusser.net</em:homepageURL>
+    <em:homepageURL>http://www.basson.at/firefox-addons/foobarcontrols</em:homepageURL>
     
     <!-- Firefox -->
     <em:targetApplication>
